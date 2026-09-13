@@ -1,0 +1,11 @@
+SUBE A LA RAÍZ DEL REPOSITORIO ROSARIUM:
+- index.html
+- manifest.webmanifest
+- service-worker.js
+- .nojekyll
+- icon-192.png
+- icon-512.png
+- icon-maskable-512.png
+
+No necesitas crear la carpeta icons.
+Reemplaza los archivos existentes si GitHub te lo solicita.
