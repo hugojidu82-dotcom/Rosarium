@@ -1,0 +1,34 @@
+ROSARIUM PWA · PUBLICACIÓN E INSTALACIÓN
+
+CONTENIDO DEL PAQUETE
+- index.html
+- manifest.webmanifest
+- service-worker.js
+- icons/
+
+IMPORTANTE
+Una PWA necesita HTTPS para instalarse como aplicación. Abrir index.html desde Descargas no activa
+el Service Worker ni la instalación permanente.
+
+OPCIÓN RECOMENDADA: CLOUDFLARE PAGES · DIRECT UPLOAD
+1. Crea o inicia sesión en una cuenta de Cloudflare.
+2. Ve a Workers & Pages.
+3. Create application > Get started > Drag and drop your files.
+4. Sube ESTE ZIP completo o la carpeta ROSARIUM_PWA_v1.
+5. Asigna un nombre, por ejemplo: rosarium-hugo.
+6. Pulsa Deploy site.
+7. Cloudflare entregará una URL terminada en .pages.dev.
+8. Abre ESA URL en Chrome desde tu Samsung.
+9. En la App aparecerá “Instalar App” cuando Chrome habilite la instalación.
+   También puedes usar Chrome > ⋮ > Instalar aplicación / Agregar a pantalla principal.
+10. Después de instalarla, ROSARIUM tendrá su propio icono y podrá abrirse offline después de
+    haberse cargado al menos una vez.
+
+ACTUALIZACIONES FUTURAS
+Cuando exista una nueva versión de ROSARIUM:
+- reemplaza el contenido del proyecto con el nuevo paquete;
+- el Service Worker buscará la versión publicada cuando haya conexión;
+- el progreso del usuario sigue guardado localmente en su navegador/dispositivo.
+
+NOTA
+No borres los datos del sitio de Chrome si quieres conservar intención/progreso local.
