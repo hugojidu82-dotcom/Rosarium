@@ -1,0 +1,13 @@
+ROSARIUM PWA FIX v1.2
+
+Sube/reemplaza en la RAÍZ del repositorio Rosarium:
+- index.html
+- manifest.json
+- service-worker.js
+- .nojekyll
+- icon-192.png
+- icon-512.png
+- icon-maskable-512.png
+- apple-touch-icon.png
+
+El manifest.webmanifest anterior puede permanecer; ya no se usa.
